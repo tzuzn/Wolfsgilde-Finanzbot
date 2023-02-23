@@ -23,3 +23,4 @@ am ende folgende Zeile einfügen:
 ```
 0 6 * * * \usr\bin\python3 \home\pi\discordBotDaily.py
 ```
+![Profilbild des Bots](https://www.fdp.de/sites/default/files/2021-09/Profilbild%20Christian%20Lindner.png)
