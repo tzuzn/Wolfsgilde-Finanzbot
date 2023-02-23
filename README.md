@@ -5,11 +5,11 @@ Auf dem RaspberryPi werden die Datei:
 ```
 Plugins/SimpleClans/SimpleClans.db
 ```
-und das Verzeichnis
+und das Verzeichnis:
 ```
 Plugins/SimpleClans/logs/bank
 ```
-in 
+vom Minecraft Server in 
 ```
 /home/pi
 ```
