@@ -24,8 +24,6 @@ with open(csvpath, mode='r') as csv_file:
         # Check if the value in the 'column_name' column is equal to 'target_value'
         if row['Operation'] in operation and row['Clan Name'] == 'Wolfsgilde':
             if row['Operation'] == 'DEPOSIT':
-            #    log.append(row['Sender']+' hat '+row['Amount']+'€ eingezahlt.')
-            #    print(row['Sender']+' hat '+row['Amount']+'€ eingezahlt.')
                 name=row['Sender']
                 amount=row['Amount']
                 # Insert some data
@@ -38,7 +36,12 @@ conn.commit()
 c.execute("SELECT * FROM logs")
 rows = c.fetchall()
 for row in rows:
-    print(row['name'])
-
+    print(row[0])
+    print(row[1])
+    print(row[2])
+    if(row[3]==0):
+        print("IN")
+    else:
+        print("OUT")
 # Close the connection
 conn.close()
