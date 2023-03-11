@@ -11,7 +11,7 @@ intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
 
-Token ="MTA4MjkzNjA0MDIzNjUyNzYyNg.Gxf62F.pkWX42kLdMCNHUQvtZuS3lMRInDOHtfBYZat7w"
+Token ="token"
 #csvpath = "bank/"+yesterday() + ".csv"
 csvpath = "bank/2023-02-20.csv"
 date = "2023-02-20"
